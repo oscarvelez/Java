@@ -2,20 +2,42 @@ import java.util.Scanner;
 
 public class JavaLessonFive {
 
-    static double myPi = 3.14159; //Class Variable
+    static int randomNumber; //Class Variable
+    static Scanner userInput = new Scanner(System.in);
 
     public static void main(String[] args){
 
-        System.out.println( addThem(1,2));
+        System.out.println(getRandomNum());
+
+        int guessResult = 1;
+        int randomGuess = 0;
+
+        while (guessResult != -1){
+            System.out.println("Guess a number between 0 and 50: ");
+
+            randomGuess = userInput.nextInt();
+            guessResult = checkGuess(randomGuess);
+        }
+
+        System.out.println("Yes the random number is " + randomGuess);
+
 
     }
 
-    public static int addThem(int a, int b){
+    public static int getRandomNum (){
+        randomNumber = (int)(Math.random()* 51);
+        return randomNumber;
 
-        int c = a + b ;
+    }
 
-        return c;
+    public static int checkGuess(int guess){
+        if(guess == randomNumber){
+            return -1;
 
+        }
+        else {
+            return guess;
+        }
     }
 
 }
