@@ -15,6 +15,7 @@
   </component>
   <component name="ProjectId" id="1ScCaaV19UBGN5Pyyt1Is4dS1LB" />
   <component name="PropertiesComponent">
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/JavaLessonFour.java" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -30,7 +31,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.JavaLessonFive">
+    <configuration name="JavaLessonFive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaLessonFive" />
+      <module name="Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JavaLessonFour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaLessonFour" />
       <module name="Java" />
@@ -40,6 +48,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JavaLessonFive" />
         <item itemvalue="Application.JavaLessonFour" />
       </list>
     </recent_temporary>
@@ -62,7 +71,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
