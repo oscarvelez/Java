@@ -1,23 +1,33 @@
+import java.util.*;
+
 public class JavaLessonSix {
 
+    static Scanner userInput = new Scanner(System.in);
     public static void main(String[] args){
 
-        divideByZero(2);
+        System.out.print("How old are you? ");
+
+        int age = checkValidAge();
+
+        if (age != 0 ){
+
+            System.out.println("You are " + age + " years old");
+        }
     }
 
-    public static void divideByZero(int a){
+    public static int checkValidAge(){
 
         try{
 
-            System.out.println(a/0);
+            return userInput.nextInt();
         }
 
-        catch (ArithmeticException e){
-            System.out.println("You can't do that");
-
-            System.out.println(e.getMessage());
-
-            e.printStackTrace();
+        catch(InputMismatchException e){
+            userInput.next();
+            System.out.print("That isn't a whole number");
+            return  0;
         }
     }
+
+
 }
