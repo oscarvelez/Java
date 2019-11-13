@@ -1,33 +1,40 @@
-import java.util.*;
+import java.io.*;
 
 public class JavaLessonSix {
 
-    static Scanner userInput = new Scanner(System.in);
     public static void main(String[] args){
+        getAFile("./somestuff.txt");
 
-        System.out.print("How old are you? ");
 
-        int age = checkValidAge();
-
-        if (age != 0 ){
-
-            System.out.println("You are " + age + " years old");
-        }
     }
 
-    public static int checkValidAge(){
+   public static void getAFile(String fileName){
 
-        try{
+        try {
+            FileInputStream file = new FileInputStream(fileName);
+        }
+        catch (FileNotFoundException e){
+            System.out.println("Sorry can't find that file");
+       }
 
-            return userInput.nextInt();
+        catch(IOException e ){
+            System.out.println("Unknown IO Error");
         }
 
-        catch(InputMismatchException e){
-            userInput.next();
-            System.out.print("That isn't a whole number");
-            return  0;
+        catch(ClassNotFoundException | IOException e){
+
         }
-    }
+
+        catch (Exception e){
+            System.out.println("Some error occurred");
+        }
+
+        finally {
+            System.out.println("Line is printed");
+        }
+
+   }
+
 
 
 }
