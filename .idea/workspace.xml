@@ -34,16 +34,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LessonEight">
-    <configuration name="JavaLessonSeven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaLessonSeven" />
+  <component name="RunManager" selected="Application.JavaLessonNine">
+    <configuration name="JavaLessonNine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaLessonNine" />
       <module name="Java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaLessonSix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaLessonSix" />
+    <configuration name="JavaLessonSeven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaLessonSeven" />
       <module name="Java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -72,11 +72,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JavaLessonNine" />
         <item itemvalue="Application.LessonEight" />
         <item itemvalue="Application.MonsterTwo" />
         <item itemvalue="Application.JavaLessonSeven" />
         <item itemvalue="Application.Monster" />
-        <item itemvalue="Application.JavaLessonSix" />
       </list>
     </recent_temporary>
   </component>
